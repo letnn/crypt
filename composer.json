@@ -3,13 +3,13 @@
     "description": "基于Jwt的字符串加密与解密",
     "keywords": ["letnn", "Jwt", "crypt", "加密解密"],
     "license": "MIT",
+    "homepage": "https://github.com/letnn/crypt",
     "authors": [
       {
         "name": "LangShen",
         "email": "langshen@vip.qq.com"
       }
     ],
-    "minimum-stability": "stable",
     "require": {
       "php": ">=7.1"
   
