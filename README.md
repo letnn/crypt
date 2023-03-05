@@ -10,8 +10,7 @@
 ```composer require letnn/crypt```
 
 #### 调用
-```
-<?php
+```php
 // 加密
 $password = \letnn\Crypt::Encode("123456", "key");
 
