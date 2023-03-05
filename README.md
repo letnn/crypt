@@ -21,5 +21,9 @@ print \letnn\Crypt::Decode($password, "key");
 ```
 
 #### 签名算法
-```支持 HS256 HS384 HS512 RS256 RS384 RS512```
-```默认 HS256```
+```
+支持 HS256 HS384 HS512 RS256 RS384 RS512
+```
+```
+默认 HS256
+```
