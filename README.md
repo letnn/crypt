@@ -9,11 +9,14 @@
 
 ```composer require letnn/crypt```
 
-#### 加密
-```$password = \letnn\Crypt::Encode("123456", "key");```
+#### 调用
+```<?php
+// 加密
+$password = \letnn\Crypt::Encode("123456", "key");```
 
-#### 解密
-```print \letnn\Crypt::Decode($password, "key");```
+// 解密
+print \letnn\Crypt::Decode($password, "key");
+```
 
 #### 签名算法
 ```支持 HS256 HS384 HS512 RS256 RS384 RS512```
